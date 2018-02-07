@@ -24,7 +24,7 @@ For example, if you want to compile all 'racey' tests, simply do the following:
 
 `make -j16`
 
-We can also modify the Makefile if you need to change any flag for the compilation. 
+You can also modify the Makefile if you need to change any flag for the compilation. 
 
 # Contact us
 
