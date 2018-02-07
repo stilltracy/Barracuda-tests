@@ -1,6 +1,8 @@
 # Barracuda Concurrency Bug Suite
 
-This repository contains the concurrency bug suite used to evaluate Barracuda (See our PLDI '17 paper for details: Eizenberg, Ariel, Yuanfeng Peng, Toma Pigli, William Mansky, and Joseph Devietti. "BARRACUDA: Binary-level Analysis of Runtime RAces in CUDA programs." In Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation, pp. 126-140. ACM, 2017.)
+This repository contains the concurrency bug suite used to evaluate Barracuda. See our PLDI '17 paper for details: 
+
+*Ariel Eizenberg, Yuanfeng Peng, Toma Pigli, William Mansky, and Joseph Devietti. "BARRACUDA: Binary-level Analysis of Runtime RAces in CUDA programs." In Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation, pp. 126-140. ACM, 2017.*
 
 # Prerequisites 
 
@@ -19,6 +21,7 @@ If you want to compile the tests manually, we've provided a Makefile for each se
 For example, if you want to compile all 'racey' tests, simply do the following: 
 
 `cd racey`
+
 `make -j16`
 
 We can also modify the Makefile if you need to change any flag for the compilation. 
